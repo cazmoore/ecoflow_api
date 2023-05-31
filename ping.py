@@ -1,25 +1,3 @@
-# import config
-# import notifications
-# import os
-#
-# SERVER_IP = config.SERVER_IP
-#
-#
-# def check_host_status():
-#     host_up = False
-#
-#     for key, value in SERVER_IP.items():
-#         response = os.system('ping -c 1 ' + key)
-#         if response == 0:
-#             host_up = True
-#         else:
-#             host_up = False
-#
-#     if not host_up:
-#         title = "Possible power outage"
-#         message = f"Cannot reach {value}, possible power outage."
-#         notifications.send_push_notification(message, title)
-
 import config
 import notifications
 import os
